@@ -29,7 +29,3 @@ Each class can be used to perform typical operations associated with its respect
 2. Open the project in your Java IDE.
 3. You can directly use the implemented classes in your Java project or run the test cases provided in `Test.java` to validate the functionality.
 
-## Contributions
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
-
