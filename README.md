@@ -23,9 +23,3 @@ Each class can be used to perform typical operations associated with its respect
 - `MyMinHeap.java`: Contains the implementation of MyMinHeap class.
 - `Test.java`: Contains test cases for all implemented classes.
 
-## How to Use
-
-1. Clone the repository to your local machine.
-2. Open the project in your Java IDE.
-3. You can directly use the implemented classes in your Java project or run the test cases provided in `Test.java` to validate the functionality.
-
