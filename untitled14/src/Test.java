@@ -1,6 +1,5 @@
 public class Test {
     public static void main(String[] args) {
-        // Тестируем MyArrayList
         System.out.println("Testing MyArrayList:");
         MyList<Integer> arrayList = new MyArrayList<>();
         for (int i = 0; i < 10; i++) {
@@ -13,7 +12,6 @@ public class Test {
         }
         System.out.println();
 
-        // Тестируем MyLinkedList
         System.out.println("\nTesting MyLinkedList:");
         MyList<Integer> linkedList = new MyLinkedList<>();
         for (int i = 0; i < 10; i++) {
@@ -26,7 +24,6 @@ public class Test {
         }
         System.out.println();
 
-        // Тестируем MyStack с MyArrayList
         System.out.println("\nTesting MyStack with MyArrayList:");
         MyStack<Integer> stackWithArrayList = new MyStack<>(true);
         for (int i = 0; i < 5; i++) {
@@ -39,7 +36,6 @@ public class Test {
         }
         System.out.println();
 
-        // Тестируем MyStack с MyLinkedList
         System.out.println("\nTesting MyStack with MyLinkedList:");
         MyStack<Integer> stackWithLinkedList = new MyStack<>(false);
         for (int i = 0; i < 5; i++) {
@@ -52,7 +48,6 @@ public class Test {
         }
         System.out.println();
 
-        // Тестируем MyQueue с MyArrayList
         System.out.println("\nTesting MyQueue with MyArrayList:");
         MyQueue<Integer> queueWithArrayList = new MyQueue<>(true);
         for (int i = 0; i < 5; i++) {
@@ -65,7 +60,6 @@ public class Test {
         }
         System.out.println();
 
-        // Тестируем MyQueue с MyLinkedList
         System.out.println("\nTesting MyQueue with MyLinkedList:");
         MyQueue<Integer> queueWithLinkedList = new MyQueue<>(false);
         for (int i = 0; i < 5; i++) {
@@ -78,7 +72,6 @@ public class Test {
         }
         System.out.println();
 
-        // Тестируем MyMinHeap с MyArrayList
         System.out.println("\nTesting MyMinHeap with MyArrayList:");
         MyMinHeap<Integer> heapWithArrayList = new MyMinHeap<>(true);
         int[] nums = {3, 5, 8, 2, 4, 1, 9, 7, 6};
